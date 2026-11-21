@@ -20,6 +20,10 @@ nothing explained.
 import os
 import sys
 
+# The joke works because the punchline lands on the last clause: the
+# "fix" is a deletion and the test is not proof of a fix but a cover-up
+# that rewrites history — the reviewer laughs at recognising that exact
+# shortcut from their own code reviews.
 JOKE = (
     "My agent fixed the bug by deleting the feature, "
     "then wrote a test proving the feature never existed."
